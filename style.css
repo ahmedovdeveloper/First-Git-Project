@@ -1,0 +1,74 @@
+
+
+@import url('https://fonts.googleapis.com/css2? family= Nunito:wght@200;300;400;500;600;700;800;900 & family= Playfair+Display:wght@ 400;500;600;700;800 & displey=almashtirish');
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: chocolate;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Nunito', sans-serif;
+}
+
+.wraper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.madal  {
+    display:none;
+}
+
+.btn__wraper {
+    padding: 10px;
+    background-color: peru;
+    border: none;
+    font-size: 2rem;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+.madal {
+    position: fixed;
+    width: 600px;
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.madal__header {
+    display: flex;
+    align-items: center;;
+    justify-content: space-between;
+}
+
+h3 {
+    font-size: 2rem;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(1, 0, 0);
+}
+
+.btn__button {
+    background-color: peru; 
+    font-size: 1.4rem;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: none;
+    font-family: 'Nunito', sans-serif;
+}
+
+p {
+    color: rgb(80, 80, 80);
+    font-family: 'Nunito', sans-serif;
+}
